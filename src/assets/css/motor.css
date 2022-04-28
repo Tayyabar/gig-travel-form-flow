@@ -1,0 +1,190 @@
+.header-motor {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/motor.jpg');
+    background-size: cover;
+    background-position-y:60%;
+    height:60vh;
+}
+
+.section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.motor-header-section {
+    padding-top:50px;
+}
+
+.motor-header-section h2 {
+    font-family: 'Freight-SansLight';
+    font-size:2rem;
+    color:white;
+}
+
+.motor-header-section h4 {
+    font-family: 'Freight-SansLight';
+    font-size:1.5rem;
+    color:white;
+}
+
+
+/* intro-section */
+.intro-section {
+    padding-top:50px;
+}
+.intro-section .content-list{
+    padding-bottom:50px;
+}
+.intro-section .content-list h2 {
+    padding-bottom:15px;
+    color:#222158;
+    font-size: 2rem;
+}
+
+.intro-section .content-list h2  b{
+    font-family: 'Freight-SansBold';
+    font-weight:normal;
+}
+
+.intro-section .content-list p  {
+    font-size: 18px;
+    font-family: 'Freight-SansMedium';
+    line-height: 28px;
+    color: #222328;
+
+}
+
+
+/* service-section  */
+
+.service-section {
+    background-image: url('../images/bg/bg_footer20.png');
+
+    margin-bottom: 50px;
+}
+.service-details {
+    padding:100px 0;
+    
+}
+.service-details h2 {
+    color:white;
+    padding:10px 0;
+}
+.service-details h2 b{
+    font-family: 'Freight-SansBold';
+    font-weight:normal;
+    font-size: 2rem;
+}
+.service-details p {
+    font-size: 18px;
+    font-family: 'Freight-SansMedium';
+    line-height: 28px;
+    color: white;
+}
+
+/* company-section */
+.company-details-bg {
+    border-radius:4px;
+   /*  background-color:#f4f4f4;
+    padding:30px; */
+    margin-bottom:100px;
+}
+
+.company-details-bg h2 {
+    margin-bottom:20px;
+    color:#222158;
+    font-size: 2rem;
+}
+.company-details-bg h2 b{
+    font-family: 'Freight-SansBold';
+    font-weight:normal;
+}
+
+.company-details-bg p {
+    padding:15px 0 40px 0;
+    font-size: 18px;
+    font-family: 'Freight-SansMedium';
+    line-height: 28px;
+    color: #222328;
+}
+.company-details-bg .btn_buy {
+    padding-top:100px;
+}
+.company-details-bg .btn_buy a {
+    background-color: #a91357;
+    border: 2px solid #a91357;
+    border-radius: 30px;
+    color: #ffffff; 
+    font-family: 'Freight-SansBold';
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding:10px 50px;
+    text-transform: uppercase; 
+    display:inline-block;
+}
+.company-details-bg .btn_buy a:hover {
+    background-color:transparent;
+    color:#a91357;
+}
+
+/* claim-section */
+.claim-details {
+    background-color:#5797c8;
+    padding:30px;
+    margin-bottom:100px;
+}
+.claim-content h2 b{
+    font-family: 'Freight-SansBold';
+    font-weight:normal;
+} 
+.claim-content p {
+    padding:15px 0 40px 0;
+    font-size: 18px;
+    font-family: 'Freight-SansMedium';
+    line-height: 28px;
+    color: white;
+}
+.claim-content a {
+    font-family: 'Freight-SansBold';
+    letter-spacing:2px;
+    color:white;
+}
+.claim-content a:hover {
+    color:#a91357;
+}
+
+.navbar-nav.ml-auto .nav-item .subnav-action-btn {
+    border-radius: 25px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Freight-SansLight';
+    border: none;
+    color: white !important;
+    background-color: #A91357 !important;
+}
+
+
+
+

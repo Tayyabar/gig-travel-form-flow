@@ -1,0 +1,120 @@
+.header-bod {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/bod.jpg');
+    background-size: cover;
+    background-position:center;
+    height:50vh;
+}
+
+.board-of-directors .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.board-of-directors .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.board-of-directors .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+
+.bod .bg {
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+.bod .bg {
+    border-radius: 100%;
+    height: 237px;
+    width: 237px;
+}
+
+
+.bod {
+    display: table;
+    z-index: 1;
+    width: 95%;
+    margin: 5em auto;
+}
+
+.bod.khaled-h .bg {
+    background: url(../images/bod/khaled.png) center center;
+    background-size: cover;
+}
+
+.bod.bijan .bg {
+    background: url(../images/bod/bijan.png) center center;
+    background-size: cover;
+}
+.bod.suleyman .bg {
+    background: url(../images/bod/suleyman.png) center center;
+    background-size: cover;
+}
+.bod.tareq .bg {
+    background: url(../images/bod/tareq.png) center center;
+    background-size: cover;
+}
+.bod.aimen .bg {
+    background: url(../images/bod/aimen.png) center center;
+    background-size: cover;
+}
+
+
+.bod .bod-content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 50px;
+    width:100%;
+}
+
+.bod .bod-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.bod h3 {
+    clear: none!important;
+}
+.bod h3 {
+    font-weight: 700;
+    font-family: "Freight-SansBold",sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color:101257;
+}
+
+.bod h4 {
+    color: #b90058;
+    font-size: 700;
+    font-size: 1.4em;
+
+}
+
+@media only screen and (max-width: 599px) {
+
+.bod {
+    display: block;
+    margin: 3em auto 5em auto;
+}
+.bod .bg {
+    height: 183px;
+    width: 183px;
+    display: block;
+    background-size: auto 200px;
+    margin:0 auto;
+}
+
+.bod .bod-content {
+    margin-left: 0;
+    padding: 2em 0 0;
+    display: block;
+    text-align: center;
+}
+
+}

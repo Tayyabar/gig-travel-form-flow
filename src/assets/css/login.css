@@ -1,0 +1,77 @@
+
+
+.login .section-header {
+    text-transform: uppercase;
+    font-family: 'Freight-SansBold';
+    color:#101257;
+    letter-spacing: 1.5px;
+}
+
+.login .normal-section {
+    padding-top:200px;
+    padding-bottom:0px;
+    min-height: 70vh;
+
+}
+.login .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.login .section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.page-wrapper.login {
+    background: #d4d2cb;
+    background: -moz-linear-gradient(top, #d4d2cb 18%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #d4d2cb 18%,#ffffff 100%);
+    background: linear-gradient(to bottom, #d4d2cb 18%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d2cb', endColorstr='#ffffff',GradientType=0 );
+    text-align: center;
+}
+
+.login-registration .action-btn {
+    height: 45px;
+    line-height: 40px;
+    margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+
+
+
+.login-header {
+
+}
+
+.login-text {
+    color: #2b4457;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.1), 0 2px 2px 0 rgba(0,0,0,0.1), 0 1px 1px 0 rgba(0,0,0,.01);
+}
+
+.panel-heading {
+    padding: 20px 20px 0 20px;
+    margin-right: 0px;
+}
+
+.row .panel-body {
+    padding: 20px !important;
+}
+
+.help a {
+    color:#b90058;
+}

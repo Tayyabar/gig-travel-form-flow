@@ -1,0 +1,210 @@
+/*
+    DEMO STYLE
+*/
+
+
+
+a,
+a:hover,
+a:focus {
+    color: #101257;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.fixed-header a,
+.fixed-header .sidebar-icon,
+.fixed-header a:hover,
+.fixed-header a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    height: 100vh;
+    z-index: 99999999;
+    background: #eaeaea;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    color: #a91357;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size:25px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+   
+}
+
+
+.overlay-new {
+    display: none;
+    position: fixed;
+    top:0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay-new.active {
+    display: block;
+    opacity: 1;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #272464;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #272464;
+    padding: 10px;
+}
+#sidebar ul li {
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 25px;
+    width: auto!important;
+}
+
+#sidebar ul li a {
+    padding: 1.4em 0;
+    font-size: 1.1em;
+    display: block;
+    color: #405e7c;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+ 
+.sidemenu-icons {
+    width: 40px;
+    margin-right: 10px;
+}
+#sidebar ul li ul {
+	padding:0;
+}
+#sidebar ul li ul li
+{
+    border:none;
+    margin: 0 10px;
+}
+#sidebar ul li ul li a { 
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: inherit;
+    padding: .5em 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width:100%;
+    color:#a91357;
+}
+
+#sidebar ul li ul li ul li a {
+    display: block;
+    padding: .6em 1.5em;
+    color: #555;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 200;
+    line-height: 1;
+}
+#sidebar ul li ul li ul li a.active
+{
+	background:#a91357;
+	color:#FFF;
+}
+#sidebar ul li ul li:last-child {
+    margin-bottom: 1.5em;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+
+
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #272464;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+#sidebar ul li a {
+    color:#101257;
+}
+
+#sidebar ul li .dropdown-toggle::after {
+    position: absolute;
+    right: 0;
+    top:35px;
+}
+
+#sidebar ul li ul li  .dropdown-toggle::after{ 
+    top:12px;
+    }
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

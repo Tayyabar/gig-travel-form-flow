@@ -1,0 +1,441 @@
+
+
+.section-header {
+    text-transform: uppercase;
+    font-family: 'Freight-SansBold';
+    color:#101257;
+    letter-spacing: 1.5px;
+}
+
+.normal-section {
+    padding-top:200px;
+    padding-bottom:0;
+    min-height: 70vh;
+    height: auto;
+}
+.section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.page-wrapper.motor-tpl {
+    background: #d4d2cb;
+    background: -moz-linear-gradient(top, #d4d2cb 18%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #d4d2cb 18%,#ffffff 100%);
+    background: linear-gradient(to bottom, #d4d2cb 18%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d2cb', endColorstr='#ffffff',GradientType=0 );
+    text-align: center;
+}
+
+.login-registration .action-btn {
+    height: 45px;
+    line-height: 40px;
+}
+ul.nav.motor-tab.nav-tabs{
+    display: flex;
+    background: #fff;
+    border: none;
+    padding-top: 30px;
+}
+ul.nav.motor-tpl-tab.nav-tabs .nav-item{
+    position: relative;
+    width: calc(100% / 6);
+    z-index: 1;
+}
+
+ul.nav.motor-tpl-tab.nav-tabs .nav-item{
+    position: relative;
+    width: calc(100% / 6);
+    z-index: 1;
+}
+
+ul.nav.motor-gold-tab.nav-tabs .nav-item{
+    position: relative;
+    width: calc(100% / 8);
+    z-index: 1;
+}
+
+ul.nav.motor-topup-tab.nav-tabs .nav-item{
+    position: relative;
+    width: calc(100% / 9);
+    z-index: 1;
+}
+
+ul.nav.home-tab.nav-tabs .nav-item {
+    width: calc(100% / 4);
+}
+
+ul.nav.motor-tab.nav-tabs .nav-item .nav-link{
+    background: transparent !important;
+}
+.motor-tab.nav-tabs .nav-item .nav-link span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #b90058;
+    background-color: #eee;
+    border-radius: 50%;
+    font-size: 16px;
+    margin: 10px auto;
+    text-align: center;
+    border:none;
+    z-index: 1;
+}
+
+.motor-tab.nav-tabs .nav-item .nav-link.show span{
+    background-color: #1290b9;
+    color: #fff;
+}
+.motor-tab.nav-tabs .nav-item .nav-link.show div{
+    color: #1290b9;
+}
+.motor-tab.nav-tabs .nav-item .nav-link.active span{
+    background-color: #b90058 !important;
+    color: #fff;
+}
+.motor-tab.nav-tabs .nav-item .nav-link.active div{
+    color: #b90058 !important;
+}
+ul.nav.motor-tab.nav-tabs .nav-item .nav-link span:before{
+    content: '';
+    position: absolute;
+    top: 44px;
+    right: calc(50% - 25px);
+    height: 2px;
+    width: 100%;
+    border-bottom: 2px dashed #ccc;
+    z-index: -1;
+
+}
+.motor-tab.nav-tabs .nav-item .nav-link.show span:before{
+    border-bottom: 2px dashed #1290b9 !important;
+}
+ul.nav.motor-tab.nav-tabs .nav-item:first-of-type .nav-link span:before{
+    display: none;
+}
+
+
+
+.motor-tab.nav-tabs .nav-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-size: 14px;
+    color: #aaa;
+    margin:0 auto;
+    text-align: center;
+    border:none;
+}
+.motor-tab.nav-tabs .nav-link:hover {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    margin:0px;
+}
+
+.register-header {
+    color: #222158;
+}
+
+.register-text {
+    color: #2b4457;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.1), 0 2px 2px 0 rgba(0,0,0,0.1), 0 1px 1px 0 rgba(0,0,0,.01);
+}
+
+.panel-heading {
+    padding: 20px 20px 0 20px;
+    margin-right: 0px;
+}
+
+.row .panel-body {
+    padding: 20px !important;
+}
+
+
+.intl-tel-input {
+    width:100%;
+}
+
+.iti-flag {background-image: url("../images/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti-flag {background-image: url("../images/flags@2x.png");}
+}
+
+.selected-flag {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+/*.brand-logo, .model-check{
+    height: 300px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.brand-logo.view-all, .model-check.view-all {
+    height: auto;
+    overflow: hidden;
+}*/
+.model-wrapper, .modelType-wrapper, .carColor-wrapper, .carYear-wrapper{
+    display: none;
+}
+.model-wrapper.active, .modelType-wrapper.active, .carColor-wrapper.active, .carYear-wrapper.active{
+    display: block;
+}
+.view_btn .btn_blue.blue {
+    border: 2px solid #222158 !important;
+    color: #fff !important;
+    background: #222158 !important;
+}
+.view_btn .btn_blue.blue:hover {
+    border: 2px solid #222158 !important;
+    color: #222158 !important;
+    background: #fff !important;
+}
+.colors-menu{
+    position: relative;
+    display: flex;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+.colors-menu li{
+    display: inline-block;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+    width: 20%;
+}
+.colors-menu li a span{
+    width: 64px;
+    height: 64px;
+    border: 5px solid #ddd;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.colors-menu li a.color-grey span{
+    background: #808080;
+}
+.colors-menu li a.color-red span{
+    background: #f00;
+}
+.colors-menu li a.color-blue span{
+    background: #00f;
+}
+.colors-menu li a.color-white span{
+    background: #fff;
+}
+.colors-menu li a.color-black span{
+    background: #000;
+}
+
+.remaining-form .input-group label{
+    min-width: 250px;
+}
+.insurance-table{
+    border: none !important;
+    color: #222158;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.insurance-table tr td:first-child{
+    text-align: left;
+ }
+.insurance-table tr td{
+    border: 2px dotted #ddd !important;
+}
+.insurance-table thead tr td{
+    border-top: none !important;
+}
+.insurance-table tr:last-child td{
+    border-bottom: none !important;
+}
+.insurance-table tr td:first-child{
+    border-left: none !important;
+}
+.insurance-table tr td:last-child{
+    border-right: none !important;
+}
+.insurance-table thead tr td p{
+    font-size: 14px;
+    font-weight: normal;
+    color: #222158;
+}
+/* Information */
+.information-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #222158;
+    text-align: left;
+    margin: 50px auto 20px;
+    padding: 10px 0;
+    border-bottom: 2px dashed #b90058;
+}
+.information-title span span, .information-title span a{
+    font-size: 30px;
+    color: #A91357 !important;
+    display: inline-block;
+}
+ul.information-menu{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    text-align: left;
+}
+ul.information-menu li{
+    display: inline-block;
+    width: calc((100% / 2) - 2px);
+    margin: 5px auto;
+    vertical-align: top;
+}
+ul.information-menu li .info-title{
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px;
+    color: #222158;
+    font-weight: bold;
+    font-size: 16px;
+}
+ul.information-menu li .info-desc{
+    display: inline-block;
+    color: rgba(34, 33, 88, 0.5);
+    font-weight: normal;
+    font-size: 16px;
+}
+.premium-calculator{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto ;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #ddd;
+    color: #222158;
+
+}
+.insurance-information-wrapper .input-group{
+    position: relative;
+}
+.insurance-information-wrapper .input-group > label{
+    text-align: left;
+    color: #222158;
+    font-weight: bold;
+}
+.insurance-information-wrapper .input-group > label:first-of-type{
+    width: 200px;
+    font-size: 20px;
+}
+.insurance-information-wrapper .input-group .form-control{
+    padding: 0 22px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.insurance-information-wrapper .is-readonly .btn-save {
+    display: none;
+}
+.insurance-information-wrapper .is-readonly input[disabled], .insurance-information-wrapper .is-readonly textarea[disabled] {
+    cursor: text;
+    background-color: #ddd;
+    outline-color: transparent;
+    box-shadow: none;
+}
+.insurance-information-wrapper .is-editing .btn-edit {
+    display: none;
+}
+.btn-edit,.btn-save{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #222158;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+@media screen and (max-width: 991px){
+    ul.information-menu li{
+        width: calc((100% / 2) - 2px);
+    }
+}
+@media screen and (max-width: 767px){
+    .register-tab.nav-tabs .nav-item .nav-link div {
+        display: none;
+    }
+    .colors-menu li a span{
+        width: 48px;
+        height: 48px;
+    }
+    .remaining-form .input-group label{
+        width: 100%;
+        min-width: auto;
+        margin-bottom: 10px;
+    }
+    .insurance-table{
+        font-size: 16px;
+    }
+    ul.information-menu li{
+        width: 100%
+    }
+    .insurance-information-wrapper .input-group > label:first-of-type{
+        width: 100%;
+    }
+    .radioGroupWrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .colors-menu li a span{
+        width: 36px;
+        height: 36px;
+    }
+    .motor-tab.nav-tabs .nav-item .nav-link span {
+        display: block;
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    ul.nav.motor-tab.nav-tabs .nav-item .nav-link span:before {
+        top: 37px;
+        right: calc(50% - 20px);
+
+    }
+    ul.information-menu li .info-title{
+        display: block;
+        width: 100%;
+    }
+}
+

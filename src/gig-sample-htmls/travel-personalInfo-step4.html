@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="panel with-nav-tabs panel-default">
+      <div class="panel-heading"></div>
+      <div class="panel-body">
+        <div class="tab-content">
+          <div class="tab-pane text-left show active" id="tab1default">
+            <ul
+              class="nav nav-travel mb-3 d-none"
+              id="travel-tab"
+              role="tablist"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="travel-1-tab"
+                  data-toggle="pill"
+                  role="tab"
+                  aria-controls="travel-1"
+                  aria-selected="true"
+                  >1</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="travel-2-tab"
+                  data-toggle="pill"
+                  role="tab"
+                  aria-controls="travel-2"
+                  aria-selected="false"
+                  >2</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="travel-3-tab"
+                  data-toggle="pill"
+                  role="tab"
+                  aria-controls="travel-3"
+                  aria-selected="false"
+                  >3</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="travel-4-tab"
+                  data-toggle="pill"
+                  role="tab"
+                  aria-controls="travel-4"
+                  aria-selected="false"
+                  >4</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="travel-5-tab"
+                  data-toggle="pill"
+                  role="tab"
+                  aria-controls="travel-5"
+                  aria-selected="false"
+                  >4</a
+                >
+              </li>
+            </ul>
+
+            <div class="tab-pane text-left active show" id="tab2default">
+              <div class="card" id="customer-information-1">
+                <div class="card-header">
+                  <i class="fas fa-user mr-2"></i>Personal Details
+                </div>
+
+                <div class="card-body">
+                  <style>
+                    .lang-link {
+                      display: none;
+                    }
+                  </style>
+                  <div class="form-row text-left">
+                    <div class="col-sm-3 form-group">
+                      <label>Title</label
+                      ><label style="" class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:0:j_idt3624:0:selectOneMenuBlock"
+                        class="input-group"
+                      >
+                        <select
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:0:j_idt3624:0:selectOneMenu"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:0:j_idt3624:0:selectOneMenu"
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_Title select2-hidden-accessible"
+                          size="1"
+                          onchange="mojarra.ab(this,event,'change','@this',0)"
+                          data-select2-id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:0:j_idt3624:0:selectOneMenu"
+                          tabindex="-1"
+                          aria-hidden="true"
+                        >
+                          <option value="" data-select2-id="9">
+                            --Choose an Option--
+                          </option>
+                          <option value="title.miss">Miss</option>
+                          <option value="title.mr">Mr.</option>
+                          <option value="title.mrs">Mrs.</option></select
+                        ><span
+                          class="select2 select2-container select2-container--default"
+                          dir="ltr"
+                          data-select2-id="8"
+                          style="width: 212px"
+                          ><span class="selection"
+                            ><span
+                              class="select2-selection select2-selection--single"
+                              role="combobox"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              tabindex="0"
+                              aria-labelledby="select2-_travelpurchaseV2_WAR_gigkwosportlets_travelPurchaseFormj_idt36200j_idt36220j_idt36240selectOneMenu-container"
+                              ><span
+                                class="select2-selection__rendered"
+                                id="select2-_travelpurchaseV2_WAR_gigkwosportlets_travelPurchaseFormj_idt36200j_idt36220j_idt36240selectOneMenu-container"
+                                role="textbox"
+                                aria-readonly="true"
+                                title="--Choose an Option--"
+                                >--Choose an Option--</span
+                              ><span
+                                class="select2-selection__arrow"
+                                role="presentation"
+                                ><b role="presentation"></b></span></span></span
+                          ><span
+                            class="dropdown-wrapper"
+                            aria-hidden="true"
+                          ></span></span
+                        ><span
+                          class="portlet-msg-error invalid-feedback Travel-Purchase-Flow-Step3-Personalinfo_Title-msg"
+                          >Please select the title</span
+                        >
+                      </div>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                      <div class="">
+                        First Name (English)<label class="required-style"
+                          >*</label
+                        >
+
+                        <div>
+                          <div>
+                            <div
+                              id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:1:j_idt3624:0:customtextboxBlock"
+                              class="input-group"
+                            >
+                              <input
+                                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:1:j_idt3624:0:customtextbox"
+                                type="text"
+                                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:1:j_idt3624:0:customtextbox"
+                                value="Tayyab"
+                                class="form-control Travel-Purchase-Flow-Step3-Personalinfo_text"
+                                maxlength="25"
+                                onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:1:j_idt3624:0:customtextboxBlock')"
+                                placeholder=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                      <div class="">
+                        Second Name (English)<label class="required-style"
+                          >*</label
+                        >
+
+                        <div>
+                          <div>
+                            <div
+                              id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:2:j_idt3624:0:customtextboxBlock"
+                              class="input-group"
+                            >
+                              <input
+                                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:2:j_idt3624:0:customtextbox"
+                                type="text"
+                                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:2:j_idt3624:0:customtextbox"
+                                value=""
+                                class="form-control Travel-Purchase-Flow-Step3-Personalinfo_text1"
+                                maxlength="25"
+                                onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:2:j_idt3624:0:customtextboxBlock')"
+                                placeholder=""
+                              /><span class="portlet-msg-error invalid-feedback"
+                                >Please enter the second name (english)</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                      <div class="">
+                        Last Name (English)<label class="required-style"
+                          >*</label
+                        >
+
+                        <div>
+                          <div>
+                            <div
+                              id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:3:j_idt3624:0:customtextboxBlock"
+                              class="input-group"
+                            >
+                              <input
+                                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:3:j_idt3624:0:customtextbox"
+                                type="text"
+                                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:3:j_idt3624:0:customtextbox"
+                                value="Abdul Rauf"
+                                class="form-control Travel-Purchase-Flow-Step3-Personalinfo_text2"
+                                maxlength="25"
+                                onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:0:j_idt3622:3:j_idt3624:0:customtextboxBlock')"
+                                placeholder=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-3 form-group">
+                      <label>Civil ID</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:0:j_idt3624:0:inputTextBlock"
+                        class="input-group"
+                      >
+                        <input
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:0:j_idt3624:0:j_idt3637"
+                          value="297122100501"
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_CivilID"
+                          readonly="readonly"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                      <label>Gender</label
+                      ><label style="" class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:1:j_idt3624:0:selectOneMenuBlock"
+                        class="input-group"
+                      >
+                        <input
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:1:j_idt3624:0:j_idt3698"
+                          value="Male"
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_Gender"
+                          readonly="readonly"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                      <label>Date of Birth</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:2:j_idt3624:0:inputDateBlock"
+                        class="input-group date"
+                      >
+                        <input
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:2:j_idt3624:0:j_idt3758"
+                          value="21/12/1997"
+                          class="form-control"
+                          readonly="readonly"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                      <label>Nationality</label
+                      ><label style="" class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:3:j_idt3624:0:selectOneMenuBlock"
+                        class="input-group"
+                      >
+                        <select
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:3:j_idt3624:0:selectOneMenu"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:3:j_idt3624:0:selectOneMenu"
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_Nationality select2-hidden-accessible"
+                          size="1"
+                          onchange="mojarra.ab(this,event,'change','@this',0)"
+                          data-select2-id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:1:j_idt3622:3:j_idt3624:0:selectOneMenu"
+                          tabindex="-1"
+                          aria-hidden="true"
+                        >
+                          <option value="">--Choose an Option--</option>
+                          <option value="country.afghanisthan">
+                            Afghanisthan
+                          </option>
+                          <option value="country.albanian">Albanian</option>
+                          <option value="country.algeria">Algeria</option>
+                          <option value="country.americansamoan">
+                            American Samoa
+                          </option>
+                          <option value="country.andorran">Andorra</option>
+                          <option value="country.angolan">Angola</option>
+                          <option value="country.antiguansbarbudans">
+                            Antigua &amp; Barbuda
+                          </option>
+                          <option value="country.argentina">Argentina</option>
+                          <option value="country.aritrea">Aritrea</option>
+                          <option value="country.armenia">Armenia</option>
+                          <option value="country.aruban">Aruba</option>
+                          <option value="country.australia">Australia</option>
+                          <option value="country.austria">Austria</option>
+                          <option value="country.azerbaijani">
+                            Azerbaijan
+                          </option>
+                          <option value="country.azerbijan">Azerbijan</option>
+                          <option value="country.bahamian">Bahamian</option>
+                          <option value="country.bahrain">Bahrain</option>
+                          <option value="country.bangladesh">Bangladesh</option>
+                          <option value="country.banin">Banin</option>
+                          <option value="country.bardbadian">Bardbadian</option>
+                          <option value="country.belarusian">Belarusian</option>
+                          <option value="country.belgium">Belgium</option>
+                          <option value="country.belizean">Belize</option>
+                          <option value="country.beninese">Beninese</option>
+                          <option value="country.bermudian">Bermudian</option>
+                          <option value="country.bhutan">Bhutan</option>
+                          <option value="country.blyzi">Blyzi</option>
+                          <option value="country.bolivia">Bolivia</option>
+                          <option value="country.bosnia">Bosnia</option>
+                          <option value="country.motswana">Botswana</option>
+                          <option value="country.brazil">Brazil</option>
+                          <option value="country.british">British</option>
+                          <option value="country.bruneian">Bruneian</option>
+                          <option value="country.bulgaria">Bulgaria</option>
+                          <option value="country.burkinabe">
+                            Burkina Faso
+                          </option>
+                          <option value="country.burundian">Burundian</option>
+                          <option value="country.cambodian">Cambodian</option>
+                          <option value="country.cameroon">Cameroon</option>
+                          <option value="country.canada">Canada</option>
+                          <option value="country.capeverdean">
+                            Cape Verdean
+                          </option>
+                          <option value="country.caymanian">
+                            Cayman Islands
+                          </option>
+                          <option value="country.centralafrican">
+                            Central African
+                          </option>
+                          <option value="country.chadian">Chadian</option>
+                          <option value="country.chechnya">Chechen</option>
+                          <option value="country.chilean">Chile</option>
+                          <option value="country.china">China</option>
+                          <option value="country.christmasislander">
+                            Christmas Islander
+                          </option>
+                          <option value="country.cocosislander">
+                            Cocos Islander
+                          </option>
+                          <option value="country.colombia">Colombia</option>
+                          <option value="country.comoran">Comoros</option>
+                          <option value="country.congo">Congo</option>
+                          <option value="country.congolese">Congolese</option>
+                          <option value="country.cookislander">
+                            Cook Islander
+                          </option>
+                          <option value="country.costarican">
+                            Costa Rican
+                          </option>
+                          <option value="country.coted'azure">
+                            Cote D'azure
+                          </option>
+                          <option value="country.croat">Croat</option>
+                          <option value="country.corwatia">Croatia</option>
+                          <option value="country.cuba">Cuba</option>
+                          <option value="country.curacaoan">Curacao</option>
+                          <option value="country.cyprus">Cyprus</option>
+                          <option value="country.czech-republic">
+                            Czech Republic
+                          </option>
+                          <option value="country.czech">Czechia</option>
+                          <option value="country.danmark">Danmark</option>
+                          <option value="country.denmark">Denmark</option>
+                          <option value="country.djibouti">Djibouti</option>
+                          <option value="country.dominican">Dominican</option>
+                          <option value="country.easttimorese">
+                            East Timorese
+                          </option>
+                          <option value="country.ecuadorean">Ecuador</option>
+                          <option value="country.egypt">Egypt</option>
+                          <option value="country.salvadore">El Salvador</option>
+                          <option value="country.equatorialguinean">
+                            Equatorial Guinean
+                          </option>
+                          <option value="country.eritrean">Eritrea</option>
+                          <option value="country.estonia">Estonia</option>
+                          <option value="country.swazi">Eswatini</option>
+                          <option value="country.ethiopia">Ethiopia</option>
+                          <option value="country.ethiopian">Ethiopian</option>
+                          <option value="country.falklandislander">
+                            Falkland Islander
+                          </option>
+                          <option value="country.faroese">Faroe Islands</option>
+                          <option value="country.fijian">Fijian</option>
+                          <option value="country.finland">Finland</option>
+                          <option value="country.france">France</option>
+                          <option value="country.frenchpolynesian">
+                            French Polynesian
+                          </option>
+                          <option value="country.gabonese">Gabonese</option>
+                          <option value="country.gambian">Gambian</option>
+                          <option value="country.georgia">Georgia</option>
+                          <option value="country.germany">Germany</option>
+                          <option value="country.ghana">Ghana</option>
+                          <option value="country.gibraltarian">
+                            Gibraltarian
+                          </option>
+                          <option value="country.greece">Greece</option>
+                          <option value="country.greenland">Green Land</option>
+                          <option value="country.grenadian">Grenadian</option>
+                          <option value="country.guadelopian">
+                            Guadelopian
+                          </option>
+                          <option value="country.guamanian">Guamanian</option>
+                          <option value="country.guatemalan">Guatemalan</option>
+                          <option value="country.guerns">Guernsey</option>
+                          <option value="country.guinea">Guinea</option>
+                          <option value="country.guineabissauan">
+                            Guinea-Bissau
+                          </option>
+                          <option value="country.guyanese">Guyana</option>
+                          <option value="country.haitian">Haitian</option>
+                          <option value="country.holland">Holland</option>
+                          <option value="country.honduran">Honduras</option>
+                          <option value="country.hungary">Hungary</option>
+                          <option value="country.iceland">Iceland</option>
+                          <option value="country.ikiribati">I-Kiribati</option>
+                          <option value="country.india">India</option>
+                          <option value="country.indonesia">Indonesia</option>
+                          <option value="country.iran">Iran</option>
+                          <option value="country.iraq">Iraq</option>
+                          <option value="country.ireland">Ireland</option>
+                          <option value="country.manx">Isle of Man</option>
+                          <option value="country.italy">Italy</option>
+                          <option value="country.ivorycoast">
+                            Ivory Coast
+                          </option>
+                          <option value="country.jamaica">Jamaica</option>
+                          <option value="country.japan">Japan</option>
+                          <option value="country.jibouti">Jibouti</option>
+                          <option value="country.jordan">Jordan</option>
+                          <option value="country.kazakhstani">
+                            Kazakhstani
+                          </option>
+                          <option value="country.kenya">Kenya</option>
+                          <option value="country.kittianandnevisian">
+                            Kittian and Nevisian
+                          </option>
+                          <option value="country.korea">Korea</option>
+                          <option value="country.kuwait">Kuwait</option>
+                          <option value="country.kyrgyz">Kyrgyzstan</option>
+                          <option value="country.lao">Laos</option>
+                          <option value="country.latvia">Latvia</option>
+                          <option value="country.lebanon">Lebanon</option>
+                          <option value="country.mosotho">Lesotho</option>
+                          <option value="country.liberia">Liberia</option>
+                          <option value="country.libya">Libya</option>
+                          <option value="country.liechtenstein">
+                            Liechtenstein
+                          </option>
+                          <option value="country.lithuania">Lithuania</option>
+                          <option value="country.luxemburg">Luxemburg</option>
+                          <option value="country.macedonia">Macedonia</option>
+                          <option value="country.madagascar">MADAGASCAR</option>
+                          <option value="country.malawi">Malawi</option>
+                          <option value="country.malaysia">Malaysia</option>
+                          <option value="country.maldives">Maldives</option>
+                          <option value="country.mali">Mali</option>
+                          <option value="country.malta">Malta</option>
+                          <option value="country.marshallese">
+                            Marshall Islands
+                          </option>
+                          <option value="country.martiniquais">
+                            Martinique
+                          </option>
+                          <option value="country.mauritania">Mauritania</option>
+                          <option value="country.morechoss">Mauritius</option>
+                          <option value="country.mahorais">Mayotte</option>
+                          <option value="country.mexico">Mexico</option>
+                          <option value="country.micronesian">
+                            Micronesian
+                          </option>
+                          <option value="country.moldova">Moldova</option>
+                          <option value="country.monacan">Monacan</option>
+                          <option value="country.mongolian">Mongolian</option>
+                          <option value="country.montenegrin">
+                            Montenegrin
+                          </option>
+                          <option value="country.morocco">Morocco</option>
+                          <option value="country.mozambican">Mozambican</option>
+                          <option value="country.myanmar">Myanmar</option>
+                          <option value="country.namibian">Namibian</option>
+                          <option value="country.nauruan">Nauru</option>
+                          <option value="country.nepal">Nepal</option>
+                          <option value="country.netherlands">
+                            Netherlands
+                          </option>
+                          <option value="country.netherlandsantillean">
+                            Netherlands Antilles
+                          </option>
+                          <option value="country.newcaledonian">
+                            New Caledonia
+                          </option>
+                          <option value="country.newzealand">
+                            New Zealand
+                          </option>
+                          <option value="country.nicaraguan">Nicaragua</option>
+                          <option value="country.alnyjar">Niger</option>
+                          <option value="country.nigeria">Nigeria</option>
+                          <option value="country.niuean">Niue</option>
+                          <option value="country.nonkuwaiti">
+                            Non-Kuwaiti
+                          </option>
+                          <option value="country.norfolkislander">
+                            Norfolk Island
+                          </option>
+                          <option value="country.northkorean">
+                            North Korean
+                          </option>
+                          <option value="country.norway">Norway</option>
+                          <option value="country.oman">Oman</option>
+                          <option value="country.others">Others</option>
+                          <option value="country.othersoutsidekuwait">
+                            Others Outside Kuwait
+                          </option>
+                          <option
+                            value="country.pakistan"
+                            selected="selected"
+                            data-select2-id="259"
+                          >
+                            Pakistan
+                          </option>
+                          <option value="country.palauan">Palau</option>
+                          <option value="country.palestine">Palestine</option>
+                          <option value="country.panamanian">Panamanian</option>
+                          <option value="country.papuanewguinean">
+                            Papua New Guinea
+                          </option>
+                          <option value="country.paraguayan">Paraguay</option>
+                          <option value="country.peruvian">Peru</option>
+                          <option value="country.phillipines">
+                            Phillipines
+                          </option>
+                          <option value="country.pitcairnislander">
+                            Pitcairn Islander
+                          </option>
+                          <option value="country.poland">Poland</option>
+                          <option value="country.portugal">Portugal</option>
+                          <option value="country.puertorican">
+                            Puerto Rican
+                          </option>
+                          <option value="country.qatar">Qatar</option>
+                          <option value="country.qrghustani">QRGHUSTANI</option>
+                          <option value="country.reunionese">Reunionese</option>
+                          <option value="country.romania">Romania</option>
+                          <option value="country.russia">Russia</option>
+                          <option value="country.rwandan">Rwandan</option>
+                          <option value="country.sahrawi">Sahrawi</option>
+                          <option value="country.sainthelenian">
+                            Saint Helenian
+                          </option>
+                          <option value="country.saintlucian">
+                            Saint Lucian
+                          </option>
+                          <option value="country.saintvincentian">
+                            Saint Vincentian
+                          </option>
+                          <option value="country.samoan">Samoan</option>
+                          <option value="country.sanmarinese">
+                            San Marinese
+                          </option>
+                          <option value="country.saotomean">Sao Tomean</option>
+                          <option value="country.saudiarabia">
+                            Saudi Arabia
+                          </option>
+                          <option value="country.senegal">Senegal</option>
+                          <option value="country.serbia">Serbia</option>
+                          <option value="country.seychellois">
+                            Seychelles
+                          </option>
+                          <option value="country.sierraleonean">
+                            Sierra Leone
+                          </option>
+                          <option value="country.singapore">Singapore</option>
+                          <option value="country.siraliyon">Siraliyon</option>
+                          <option value="country.slovakia">Slovakia</option>
+                          <option value="country.slovenia">Slovania</option>
+                          <option value="country.solomonislander">
+                            Solomon Islands
+                          </option>
+                          <option value="country.somalia">Somalia</option>
+                          <option value="country.southafrica">
+                            South Africa
+                          </option>
+                          <option value="country.southkorean">
+                            South Korean
+                          </option>
+                          <option value="country.spain">Spain</option>
+                          <option value="country.spaniard">Spaniard</option>
+                          <option value="country.srilanka">Sri Lanka</option>
+                          <option value="country.sudan">Sudan</option>
+                          <option value="country.surinamer">Suriname</option>
+                          <option value="country.sweden">Sweden</option>
+                          <option value="country.swiss">Swiss</option>
+                          <option value="country.switzerland">
+                            Switzerland
+                          </option>
+                          <option value="country.syria">Syria</option>
+                          <option value="country.taiwanese">Taiwanese</option>
+                          <option value="country.tajik">Tajikistan</option>
+                          <option value="country.tanzania">Tanzania</option>
+                          <option value="country.thailand">Thailand</option>
+                          <option value="country.togolese">Togolese</option>
+                          <option value="country.tokelauan">Tokelau</option>
+                          <option value="country.tongan">Tonga</option>
+                          <option value="country.trinidadianortobagonian">
+                            Trinidadian or Tobagonian
+                          </option>
+                          <option value="country.tshad">Tshad</option>
+                          <option value="country.tunisia">Tunisia</option>
+                          <option value="country.turkey">Turkey</option>
+                          <option value="country.turkmen">Turkmen</option>
+                          <option value="country.tuvaluan">Tuvalu</option>
+                          <option value="country.virginislander">
+                            U.S. Virgin Islands
+                          </option>
+                          <option value="country.ugandan">Uganda</option>
+                          <option value="country.ukraine">Ukraine</option>
+                          <option value="country.unitedarabemirates">
+                            United Arab Emirates
+                          </option>
+                          <option value="country.unitedkingdom">
+                            United Kingdom
+                          </option>
+                          <option value="country.unitednations">
+                            United Nations
+                          </option>
+                          <option value="country.unitedstatesofamerica">
+                            United States of America
+                          </option>
+                          <option value="country.uruguayan">Uruguay</option>
+                          <option value="country.uzbekistan">Uzbekistan</option>
+                          <option value="country.nivanuatu">Vanuatu</option>
+                          <option value="country.vatican">Vatican</option>
+                          <option value="country.venezuela">Venezuela</option>
+                          <option value="country.vietnam">Vietnam</option>
+                          <option value="country.wallisandfutunaislander">
+                            Wallis and Futuna Islander
+                          </option>
+                          <option value="country.yemen">Yemen</option>
+                          <option value="country.yugoslovia">Yugoslovia</option>
+                          <option value="country.zambian">Zambian</option>
+                          <option value="country.zimbabwe">
+                            Zimbabwe
+                          </option></select
+                        ><span
+                          class="select2 select2-container select2-container--default"
+                          dir="ltr"
+                          data-select2-id="258"
+                          style="width: 212px"
+                          ><span class="selection"
+                            ><span
+                              class="select2-selection select2-selection--single"
+                              role="combobox"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              tabindex="0"
+                              aria-labelledby="select2-_travelpurchaseV2_WAR_gigkwosportlets_travelPurchaseFormj_idt36201j_idt36223j_idt36240selectOneMenu-container"
+                              ><span
+                                class="select2-selection__rendered"
+                                id="select2-_travelpurchaseV2_WAR_gigkwosportlets_travelPurchaseFormj_idt36201j_idt36223j_idt36240selectOneMenu-container"
+                                role="textbox"
+                                aria-readonly="true"
+                                title="Pakistan"
+                                >Pakistan</span
+                              ><span
+                                class="select2-selection__arrow"
+                                role="presentation"
+                                ><b role="presentation"></b></span></span></span
+                          ><span
+                            class="dropdown-wrapper"
+                            aria-hidden="true"
+                          ></span
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-12 form-group">
+                      <div class="">
+                        Passport Full Name<label class="required-style"
+                          >*</label
+                        >
+
+                        <div>
+                          <div>
+                            <div
+                              id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:2:j_idt3622:0:j_idt3624:0:customtextboxBlock"
+                              class="input-group"
+                            >
+                              <input
+                                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:2:j_idt3622:0:j_idt3624:0:customtextbox"
+                                type="text"
+                                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:2:j_idt3622:0:j_idt3624:0:customtextbox"
+                                value=""
+                                class="form-control Travel-Purchase-Flow-Step3-Personalinfo_PassportName"
+                                maxlength="74"
+                                onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:2:j_idt3622:0:j_idt3624:0:customtextboxBlock')"
+                                placeholder=""
+                              /><span class="portlet-msg-error invalid-feedback"
+                                >Please Enter Full Name</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-6 form-group">
+                      <div class="">
+                        Passport Number<label class="required-style">*</label>
+
+                        <div>
+                          <div>
+                            <div
+                              id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:0:j_idt3624:0:customtextboxBlock"
+                              class="input-group"
+                            >
+                              <input
+                                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:0:j_idt3624:0:customtextbox"
+                                type="text"
+                                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:0:j_idt3624:0:customtextbox"
+                                value=""
+                                class="form-control Travel-Purchase-Flow-Step3-Personalinfo_PassportNumber"
+                                maxlength="12"
+                                onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:0:j_idt3624:0:customtextboxBlock')"
+                                placeholder=""
+                              /><span class="portlet-msg-error invalid-feedback"
+                                >Please Enter Passport Number</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                      <label>Passport Expiry</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:1:j_idt3624:0:inputDateBlock"
+                        class="input-group date"
+                      >
+                        <input
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:1:j_idt3624:0:inputdate"
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:1:j_idt3624:0:inputdate"
+                          value=""
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry"
+                        />
+                        <div class="">
+                          <span
+                            class="input-group-text Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry_dateClass"
+                            id="basic-addon2"
+                            ><i class="fa fa-calendar"></i
+                          ></span>
+                        </div>
+                        <span
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:3:j_idt3622:1:j_idt3624:0:inputDateMsg"
+                          class="portlet-msg-error invalid-feedback Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry-msg"
+                          >Please select the passport expiry</span
+                        >
+                        <script>
+                          $(document).ready(function () {
+                            $(
+                              ".Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry"
+                            ).datepicker({
+                              autoclose: true,
+                              format: "dd/mm/yyyy",
+                              //Added by Ali on 31st July, to control start and enddate via liferay forms
+                              startDate: "+1d",
+                              endDate: "+20y",
+                            });
+
+                            $(
+                              "span[class*='Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry']"
+                            ).click(function () {
+                              $(
+                                "input[class*='Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry']"
+                              ).datepicker("show");
+                            });
+                          });
+
+                          $(
+                            ".Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry"
+                          ).on("blur", function () {
+                            if (this.value) {
+                              $(
+                                ".Travel-Purchase-Flow-Step3-Personalinfo_passportExpiry-msg"
+                              ).hide();
+                            }
+                          });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-6 form-group">
+                      <label>Email</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:4:j_idt3622:0:j_idt3624:0:inputTextBlock"
+                        class="input-group"
+                      >
+                        <input
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:4:j_idt3622:0:j_idt3624:0:j_idt3637"
+                          value="tayyab_110055@live.com"
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_Email"
+                          readonly="readonly"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                      <label>Phone Number</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:4:j_idt3622:1:j_idt3624:0:numericBlock"
+                        class="input-group"
+                      >
+                        <input
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:4:j_idt3622:1:j_idt3624:0:j_idt3682"
+                          value="98575322"
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_PhoneNumber"
+                          readonly="readonly"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-4 form-group">
+                      <div class="">
+                        Emergency Mobile Number
+
+                        <div>
+                          <div>
+                            <div
+                              id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:0:j_idt3624:0:customtextboxBlock"
+                              class="input-group"
+                            >
+                              <input
+                                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:0:j_idt3624:0:customtextbox"
+                                type="text"
+                                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:0:j_idt3624:0:customtextbox"
+                                value=""
+                                class="form-control Travel-Purchase-Flow-Step3-Personalinfo_EmergencyMobileNumber"
+                                maxlength="20"
+                                onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:0:j_idt3624:0:customtextboxBlock')"
+                                placeholder=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 form-group">
+                      <label>Fax Number</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:1:j_idt3624:0:numericBlock"
+                        class="input-group"
+                      >
+                        <input
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:1:j_idt3624:0:numeric"
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:1:j_idt3624:0:numeric"
+                          value=""
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_FaxNumber"
+                          maxlength="25"
+                          onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:1:j_idt3624:0:numericBlock')"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-4 form-group">
+                      <label>Kuwait Airways Oasis Club ID</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:2:j_idt3624:0:inputTextBlock"
+                        class="input-group"
+                      >
+                        <input
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:2:j_idt3624:0:inputtext"
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:2:j_idt3624:0:inputtext"
+                          value=""
+                          class="form-control Travel-Purchase-Flow-Step3-Personalinfo_KuwaitAirwaysOasisClubID"
+                          maxlength="25"
+                          onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3620:5:j_idt3622:2:j_idt3624:0:inputTextBlock')"
+                          placeholder="Oasis Club ID"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 text-lg-left text-center">
+                      <input
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3947"
+                        type="submit"
+                        name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3947"
+                        value="back"
+                        class="btn action-btn"
+                      />
+                    </div>
+
+                    <div class="col-md-6 text-lg-right text-center">
+                      <input
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3949"
+                        type="submit"
+                        name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt3949"
+                        value="Proceed"
+                        class="btn action-btn enterButton"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+              $(document).ready(function () {
+                /* //for disable field :start
+    $('input').click(function (event) {
+        if (($(this).val()!="")) {
+           // alert('CLICKED, BUT DISABLED!!');	
+        } else {
+           // alert('Not disabled. =)');
+        }
+    });
+    //for diable field :end
+     */
+
+                //To destroy a datepicker and add values
+                $(
+                  ".Travel-Purchase-Flow-Step3-Additionaltravellerinfo_DateOfBirth"
+                ).datepicker("destroy");
+                $(
+                  ".Travel-Purchase-Flow-Step3-Additionaltravellerinfo_DateOfBirth"
+                ).datepicker({
+                  autoclose: true,
+                  format: "dd/mm/yyyy",
+                  endDate: "-18y",
+                });
+
+                $(
+                  ".Travel-Purchase-Flow-Step3-Additionaltravellerinfo_passportExpiry"
+                ).datepicker("destroy");
+                $(
+                  ".Travel-Purchase-Flow-Step3-Additionaltravellerinfo_passportExpiry"
+                ).datepicker({
+                  autoclose: true,
+                  format: "dd/mm/yyyy",
+                  startDate: "+1d",
+                });
+              });
+              /* $("span[class*='Personalinfo_passportExpiry_dateClass']").click(function (){
+$("input[class*='Personalinfo_passportExpiry']").datepicker('show');
+}); */
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

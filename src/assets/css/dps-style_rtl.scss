@@ -1,0 +1,234 @@
+/* Font  */
+@font-face {
+    font-family: 'Freight-SansMedium';
+    src: url('../fonts/Freight-SansMedium.eot');
+    src: url('../fonts/Freight-SansMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Freight-SansMedium.woff2') format('woff2'),
+        url('../fonts/Freight-SansMedium.woff') format('woff'),
+        url('../fonts/Freight-SansMedium.ttf') format('truetype'),
+        url('../fonts/Freight-SansMedium.svg#Freight-SansMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight-SansBlack';
+    src: url('../fonts/Freight-SansBlack.eot');
+    src: url('../fonts/Freight-SansBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Freight-SansBlack.woff2') format('woff2'),
+        url('../fonts/Freight-SansBlack.woff') format('woff'),
+        url('../fonts/Freight-SansBlack.ttf') format('truetype'),
+        url('../fonts/Freight-SansBlack.svg#Freight-SansBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight-SansBook';
+    src: url('../fonts/Freight-SansBook.eot');
+    src: url('../fonts/Freight-SansBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Freight-SansBook.woff2') format('woff2'),
+        url('../fonts/Freight-SansBook.woff') format('woff'),
+        url('../fonts/Freight-SansBook.ttf') format('truetype'),
+        url('../fonts/Freight-SansBook.svg#Freight-SansBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight-SansLight';
+    src: url('../fonts/Freight-SansLight.eot');
+    src: url('../fonts/Freight-SansLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Freight-SansLight.woff2') format('woff2'),
+        url('../fonts/Freight-SansLight.woff') format('woff'),
+        url('../fonts/Freight-SansLight.ttf') format('truetype'),
+        url('../fonts/Freight-SansLight.svg#Freight-SansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight-SansBold';
+    src: url('../fonts/Freight-SansBold.eot');
+    src: url('../fonts/Freight-SansBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Freight-SansBold.woff2') format('woff2'),
+        url('../fonts/Freight-SansBold.woff') format('woff'),
+        url('../fonts/Freight-SansBold.ttf') format('truetype'),
+        url('../fonts/Freight-SansBold.svg#Freight-SansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'GESSTwoLight-Light';
+  src: url('../fonts/GESSTwoLight-Light.eot');
+  src: url('../fonts/GESSTwoLight-Light.woff2') format('woff2'),
+       url('../fonts/GESSTwoLight-Light.woff') format('woff'),
+       url('../fonts/GESSTwoLight-Light.ttf') format('truetype'),
+       url('../fonts/GESSTwoLight-Light.svg#GESSTwoLight-Light') format('svg'),
+       url('../fonts/GESSTwoLight-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GESSTwoLight-Light';
+  src: url('../fonts/GESSTwoLight-Light.eot');
+  src: url('../fonts/GESSTwoLight-Light.woff2') format('woff2'),
+       url('../fonts/GESSTwoLight-Light.woff') format('woff'),
+       url('../fonts/GESSTwoLight-Light.ttf') format('truetype'),
+       url('../fonts/GESSTwoLight-Light.svg#GESSTwoLight-Light') format('svg'),
+       url('../fonts/GESSTwoLight-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GESSTwoLight-Light';
+  src: url('../fonts/GESSTwoLight-Light.eot');
+  src: url('../fonts/GESSTwoLight-Light.woff2') format('woff2'),
+       url('../fonts/GESSTwoLight-Light.woff') format('woff'),
+       url('../fonts/GESSTwoLight-Light.ttf') format('truetype'),
+       url('../fonts/GESSTwoLight-Light.svg#GESSTwoLight-Light') format('svg'),
+       url('../fonts/GESSTwoLight-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'GESSTwoBold';
+    src: url('../fonts/GESSTwoBold-Bold.eot');
+    src: url('../fonts/GESSTwoBold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GESSTwoBold-Bold.woff2') format('woff2'),
+        url('../fonts/GESSTwoBold-Bold.woff') format('woff'),
+        url('../fonts/GESSTwoBold-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GESSTwoMedium';
+    src: url('../fonts/GESSTwoMedium-Medium.eot');
+    src: url('../fonts/GESSTwoMedium-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GESSTwoMedium-Medium.woff2') format('woff2'),
+        url('../fonts/GESSTwoMedium-Medium.woff') format('woff'),
+        url('../fonts/GESSTwoMedium-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'GESSTwoMedium', sans-serif;
+    background: #fff;
+}
+
+p {
+    font-family: 'GESSTwoLight-Light', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #222328;
+}
+.navbar .nav-item a {
+    font-family: 'GESSTwoBold' ;
+}
+
+/*This code is from custom_ar.css file : added by Anber on 06-03-2019*/
+
+header .arrow-down {
+    position: absolute;
+    z-index: 10;
+    display: block;
+    left: 49.5%;
+    transform: translateX(-50%);
+    bottom: 0vh;
+}
+.arrow-down {
+    text-decoration: none;
+    text-align: center;
+}
+@media (min-width: 768px) {
+.arrow-down span {
+    margin: 0 auto 2.5rem;
+}
+}
+@media (min-width: 768px) {
+header .arrow-down {
+    bottom: 1rem;
+}
+}
+@media (min-width: 48rem) {
+.arrow-down span {
+    font-size: .9375rem;
+    letter-spacing: 0rem;
+}
+}
+
+
+
+.arrow-down img {
+    width: 25px;
+    margin: 0 auto;
+    animation-name: down-animation;
+    animation-duration: 2s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@media (min-width: 768px) {
+.arrow-down img {
+    width: 40px;
+}
+}
+.arrow-down span {
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 0rem;
+    line-height: 1rem;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto 3rem;
+    transition: all .5s cubic-bezier(.215,.61,.355,1) 0s;
+}
+
+.sub-navbar  .navbar-nav .active > .nav-link {
+    font-family: 'GESSTwoBold';
+    color:#b90058;
+}
+
+/**********added by Anber on 21 - march - 2019 *********/
+
+.lang-link a {
+     background-color: #646360;
+     color: #ffffff;
+     display: inline-block;
+     font-size: 14px !important;
+     font-weight: bold;
+     height: 35px;
+     padding: 11px 30px;
+     text-transform: uppercase !important;
+     margin: 0px;
+	 font-family: 'Freight-SansMedium' !important;
+}
+#gig-nav .section.active>a, #gig-nav .section>ul>li.active>a {
+    font-family: 'GESSTwoBold';
+
+    color:#b90058;
+}
+.company-profile .section-header{
+	font-family: 'GESSTwoBold';
+    color: #101257;
+    letter-spacing: 0px;
+}
+/**********added by Anber on 24 - march - 2019 *********/
+/****arabic issues fixes***/
+.arrow-down span{
+	width: 60px !important;
+	margin-right: -10px !important;
+}
+.arrow-down {
+	width: 40px !important;
+}
+.dropdown-menu ul li a{
+	font-family: 'GESSTwoMedium' !important;
+}
+.dropdown-menu ul li a:hover{
+	font-family: 'GESSTwoMedium' !important;
+}

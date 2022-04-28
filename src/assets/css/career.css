@@ -1,0 +1,46 @@
+.header-company {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/career.jpg');
+    background-size: cover;
+    background-position-y:30%;
+    height:50vh;
+}
+
+.why-choose-us .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.why-choose-us .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.why-choose-us .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.why-choose-us .section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.career-title {
+    color:#101257;
+}
+
+.benefits {
+    padding-top:60px;
+}
+
+.benefits .title {
+    margin: 20px auto 10px auto;
+    color:#b90058;
+    font-family: 'Freight-SansBold';
+    font-size: 20px;
+}
+

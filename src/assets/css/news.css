@@ -1,0 +1,93 @@
+.header-company {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/vom_bg.jpg');
+    background-size: cover;
+    background-position-y:60%;
+    height:50vh;
+}
+
+.news .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.news .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.news .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.news .section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+
+.news-title {
+    font-family: 'Freight-SansBold';
+    padding: 0 0 20px 0;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 0;
+    color: #120f5b;
+}
+.news-date {
+    font-family: 'helvetica';
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0;
+}
+.news-paragraph {
+    padding: 20px 0 0 0;
+
+}
+.news-read-more {
+    padding: 20px 0 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px 0;
+    color: #A91357;;
+
+}
+
+.arrow {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 0 0 10px;
+    position: relative;
+    top: 3px;
+    left: 0;
+    color: #A91357;;
+}
+
+.news-border {
+    margin-bottom:50px;
+}
+
+.page-link {
+    color: #120f5b;
+    font-family: 'helvetica';
+    font-size: 14px;
+
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #120f5b;
+    border-color: #120f5b;
+}

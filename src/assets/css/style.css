@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "feather";
+
+  font-weight: normal;
+  font-style: normal;
+}
+.mydemo {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+.icon {
+  font-family: "feather";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon--zoom:before {
+  content: "\e036";
+}
+.icon--circle-cross:before {
+  content: "\e602";
+}
+.icon--arrow-right:before {
+  content: "\e600";
+}
+.icon--arrow-left:before {
+  content: "\e601";
+}

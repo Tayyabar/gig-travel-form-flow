@@ -1,0 +1,39 @@
+.header-company {
+    padding-top: 230px;
+    padding-bottom: 188px;
+   /* background: linear-gradient(rgb(255, 255, 255,0.5), transparent), url('../images/bg/company-bg.jpg');
+    background: -moz-linear-gradient(rgb(255, 255, 255,0.5), transparent),url('../images/bg/company-bg.jpg'); /* FF3.6+ */
+   /* background: -webkit-linear-gradient(rgb(255, 255, 255,0.5), transparent),url('../images/bg/company-bg.jpg'); /* Chrome10+,Safari5.1+ */
+   /* background: -o-linear-gradient(rgb(255, 255, 255,0.5), transparent),url('../images/bg/company-bg.jpg'); /* Opera 11.10+ */
+   /* background: -ms-linear-gradient(rgb(255, 255, 255,0.5), transparent),url('../images/bg/company-bg.jpg');*/
+    background-image: /*-webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), */url('../images/bg/company-bg.jpg');
+    background-size: cover;
+    background-position-y:30%;
+    height:50vh;
+}
+
+.company-profile .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.company-profile .normal-section {
+	padding-top:85px;
+	padding-bottom:0px;
+}
+.company-profile .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.company-profile .section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+
+
+

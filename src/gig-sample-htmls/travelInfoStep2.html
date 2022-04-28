@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="panel-body">
+      <div class="tab-content">
+        <div class="tab-pane text-left show active" id="tab1default">
+          <ul class="nav nav-travel mb-3 d-none" id="travel-tab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="travel-1-tab"
+                data-toggle="pill"
+                role="tab"
+                aria-controls="travel-1"
+                aria-selected="true"
+                >1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="travel-2-tab"
+                data-toggle="pill"
+                role="tab"
+                aria-controls="travel-2"
+                aria-selected="false"
+                >2</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="travel-3-tab"
+                data-toggle="pill"
+                role="tab"
+                aria-controls="travel-3"
+                aria-selected="false"
+                >3</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="travel-4-tab"
+                data-toggle="pill"
+                role="tab"
+                aria-controls="travel-4"
+                aria-selected="false"
+                >4</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="travel-5-tab"
+                data-toggle="pill"
+                role="tab"
+                aria-controls="travel-5"
+                aria-selected="false"
+                >4</a
+              >
+            </li>
+          </ul>
+
+          <div class="row mb-3">
+            <div class="offset-md-3 col-md-6">
+              <div class="tab-content" id="travel-tabContent">
+                <div
+                  class="tab-pane show active"
+                  id="travel-1"
+                  role="tabpanel"
+                  aria-labelledby="travel-1-tab"
+                >
+                  <input
+                    type="text"
+                    name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1491"
+                    value=""
+                    class="planName"
+                    style="display: none"
+                  /><input
+                    type="text"
+                    name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1492"
+                    value=""
+                    class="planCode"
+                    style="display: none"
+                  /><input
+                    type="text"
+                    name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1493"
+                    value=""
+                    class="planPrice"
+                    style="display: none"
+                  />
+                  <h4 class="text-center mb-5">When will you be travelling?</h4>
+
+                  <style>
+                    .lang-link {
+                      display: none;
+                    }
+                  </style>
+                  <div class="form-row text-left">
+                    <div class="col-sm-12 form-group">
+                      <label>From Date</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:0:j_idt1500:0:j_idt1502:0:inputDateBlock"
+                        class="input-group date"
+                      >
+                        <input
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:0:j_idt1500:0:j_idt1502:0:inputdate"
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:0:j_idt1500:0:j_idt1502:0:inputdate"
+                          value=""
+                          class="form-control Travel-Purchase-Flow-Step2-Travelling-dates_FromDate"
+                        />
+                        <div class="">
+                          <span
+                            class="input-group-text Travel-Purchase-Flow-Step2-Travelling-dates_FromDate_dateClass"
+                            id="basic-addon2"
+                            ><i class="fa fa-calendar"></i
+                          ></span>
+                        </div>
+                        <span
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:0:j_idt1500:0:j_idt1502:0:inputDateMsg"
+                        ></span>
+                        <script>
+                          $(document).ready(function () {
+                            $(
+                              ".Travel-Purchase-Flow-Step2-Travelling-dates_FromDate"
+                            ).datepicker({
+                              autoclose: true,
+                              format: "dd/mm/yyyy",
+                              //Added by Ali on 31st July, to control start and enddate via liferay forms
+                              startDate: "",
+                              endDate: "",
+                            });
+
+                            $(
+                              "span[class*='Travel-Purchase-Flow-Step2-Travelling-dates_FromDate']"
+                            ).click(function () {
+                              $(
+                                "input[class*='Travel-Purchase-Flow-Step2-Travelling-dates_FromDate']"
+                              ).datepicker("show");
+                            });
+                          });
+
+                          $(
+                            ".Travel-Purchase-Flow-Step2-Travelling-dates_FromDate"
+                          ).on("blur", function () {
+                            if (this.value) {
+                              $(
+                                ".Travel-Purchase-Flow-Step2-Travelling-dates_FromDate-msg"
+                              ).hide();
+                            }
+                          });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-12 form-group">
+                      <label>To Date</label
+                      ><label class="required-style">*</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:1:j_idt1500:0:j_idt1502:0:inputDateBlock"
+                        class="input-group date"
+                      >
+                        <input
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:1:j_idt1500:0:j_idt1502:0:inputdate"
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:1:j_idt1500:0:j_idt1502:0:inputdate"
+                          value=""
+                          class="form-control Travel-Purchase-Flow-Step2-Travelling-dates_ToDate"
+                        />
+                        <div class="">
+                          <span
+                            class="input-group-text Travel-Purchase-Flow-Step2-Travelling-dates_ToDate_dateClass"
+                            id="basic-addon2"
+                            ><i class="fa fa-calendar"></i
+                          ></span>
+                        </div>
+                        <span
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:1:j_idt1500:0:j_idt1502:0:inputDateMsg"
+                        ></span>
+                        <script>
+                          $(document).ready(function () {
+                            $(
+                              ".Travel-Purchase-Flow-Step2-Travelling-dates_ToDate"
+                            ).datepicker({
+                              autoclose: true,
+                              format: "dd/mm/yyyy",
+                              //Added by Ali on 31st July, to control start and enddate via liferay forms
+                              startDate: "",
+                              endDate: "",
+                            });
+
+                            $(
+                              "span[class*='Travel-Purchase-Flow-Step2-Travelling-dates_ToDate']"
+                            ).click(function () {
+                              $(
+                                "input[class*='Travel-Purchase-Flow-Step2-Travelling-dates_ToDate']"
+                              ).datepicker("show");
+                            });
+                          });
+
+                          $(
+                            ".Travel-Purchase-Flow-Step2-Travelling-dates_ToDate"
+                          ).on("blur", function () {
+                            if (this.value) {
+                              $(
+                                ".Travel-Purchase-Flow-Step2-Travelling-dates_ToDate-msg"
+                              ).hide();
+                            }
+                          });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row text-left">
+                    <div class="col-sm-12 form-group">
+                      <label>Duration (days)</label>
+                      <div
+                        id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:2:j_idt1500:0:j_idt1502:0:inputTextBlock"
+                        class="input-group"
+                      >
+                        <input
+                          id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:2:j_idt1500:0:j_idt1502:0:inputtext"
+                          type="text"
+                          name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:2:j_idt1500:0:j_idt1502:0:inputtext"
+                          value=""
+                          class="form-control Travel-Purchase-Flow-Step2-Travelling-dates_Duration"
+                          maxlength="50"
+                          onblur="mojarra.ab(this,event,'blur','@this','_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1498:2:j_idt1500:0:j_idt1502:0:inputTextBlock')"
+                          placeholder="Duration"
+                          style="pointer-events: none"
+                          readonly="readonly"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 text-lg-left text-center">
+              <input
+                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1824"
+                type="submit"
+                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1824"
+                value="back"
+                class="btn action-btn"
+              />
+            </div>
+
+            <div class="col-md-6 text-lg-right text-center">
+              <input
+                id="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1826"
+                type="submit"
+                name="_travelpurchaseV2_WAR_gigkwosportlets_:travelPurchaseForm:j_idt1826"
+                value="Proceed"
+                class="btn action-btn enterButton"
+              />
+            </div>
+          </div>
+          <script>
+            $(document).ready(function () {
+              //From date min value is today and maximum is 6 months as per clickgic
+              //To date min value is one day after from date and is maximum one year after from date
+
+              var fromDate = $(
+                ".Travel-Purchase-Flow-Step2-Travelling-dates_FromDate"
+              );
+              var toDate = $(
+                ".Travel-Purchase-Flow-Step2-Travelling-dates_ToDate"
+              );
+              var duration = $(
+                ".Travel-Purchase-Flow-Step2-Travelling-dates_Duration"
+              );
+              $(duration).css("pointer-events", "none");
+
+              $(duration).attr("readonly", "readonly");
+
+              //To destroy a datepicker and add values
+              $(fromDate).datepicker("destroy");
+              $.fn.datepicker.defaults.format = "dd/mm/yyyy";
+
+              var sixMonthDate = new Date();
+              sixMonthDate.setMonth(sixMonthDate.getMonth() + 6);
+              sixMonthDate.setDate(sixMonthDate.getDate() - 1);
+
+              $(fromDate)
+                .datepicker({
+                  startDate: new Date(),
+                  endDate: sixMonthDate,
+                  autoclose: true,
+                })
+                .on("changeDate", function () {
+                  var val = $(this).val();
+                  setToDateValidation(val);
+                  if ($(toDate).val() != null && $(toDate).val().length > 0) {
+                    calculateDuration();
+                  }
+                });
+
+              $(toDate).datepicker("destroy");
+              $(toDate)
+                .datepicker({
+                  startDate: new Date(),
+                  autoclose: true,
+                })
+                .on("changeDate", function () {
+                  if (
+                    $(fromDate).val() != null &&
+                    $(fromDate).val().length > 0
+                  ) {
+                    calculateDuration();
+                  }
+                });
+
+              setDateValuesOnLoad();
+
+              function setToDateValidation(val) {
+                console.log("setToDateValidation:" + val);
+                var arr = val.split("/");
+                var minToDate = new Date(arr[1] + "/" + arr[0] + "/" + arr[2]);
+                minToDate.setDate(minToDate.getDate() + 1);
+
+                var maxToDate = new Date(arr[1] + "/" + arr[0] + "/" + arr[2]);
+                var year = maxToDate.getFullYear();
+                var month = maxToDate.getMonth();
+                var day = maxToDate.getDate();
+                maxToDate = new Date(year + 1, month, day - 1);
+
+                $(toDate).datepicker("setStartDate", minToDate);
+                $(toDate).datepicker("setEndDate", maxToDate);
+                $(toDate).datepicker("autoclose", true);
+              }
+
+              function calculateDuration() {
+                console.log("calculateDuration called");
+                var val = $(toDate).val();
+                var arr = val.split("/");
+                var toDateVal = new Date(arr[1] + "/" + arr[0] + "/" + arr[2]);
+                var val1 = $(fromDate).val();
+                var arr1 = val1.split("/");
+                var fromDateVal = new Date(
+                  arr1[1] + "/" + arr1[0] + "/" + arr1[2]
+                );
+                var todayDate = new Date();
+                if (toDateVal != null && fromDateVal != null) {
+                  $(fromDate).next().next().hide();
+                  $(toDate).next().next().hide();
+                  diff = toDateVal - fromDateVal;
+                  days = Number(diff) / (24 * 60 * 60 * 1000) + 1;
+
+                  var year = todayDate.getFullYear();
+                  var month = todayDate.getMonth();
+                  var day = todayDate.getDate();
+                  var maxToDate = new Date(year + 1, month, day);
+                  var maxDiff =
+                    Number(maxToDate - todayDate) / (24 * 60 * 60 * 1000) + 1;
+                  console.log(
+                    "maxToDate" +
+                      maxToDate +
+                      " maxDiff:" +
+                      maxDiff +
+                      " days:" +
+                      days
+                  );
+
+                  if (!isNaN(days) && days > 0 && days <= maxDiff) {
+                    $(duration).val(days);
+                  } else {
+                    $(toDate).val("");
+                    //$(toDate).datepicker('destroy');
+                    $(duration).val("");
+                    //setToDateValidation(val);
+                  }
+                }
+              }
+
+              function setDateValuesOnLoad() {
+                console.log("setDateValuesOnLoad called");
+                if ($(toDate).val() != null && $(toDate).val().length > 0) {
+                  if (
+                    $(fromDate).val() != null &&
+                    $(fromDate).val().length > 0
+                  ) {
+                    setToDateValidation($(fromDate).val());
+                    calculateDuration();
+                  }
+                }
+              }
+
+              $(fromDate).click(function () {
+                $(fromDate).datepicker("show");
+              });
+              $("span[class*='Travelling-dates_ToDate_dateClass']").click(
+                function () {
+                  $(toDate).datepicker("show");
+                }
+              );
+            });
+
+            function durationCheck(data) {
+              var status = data.status; // Can be "begin", "complete" or "success".
+              switch (status) {
+                case "begin": // Before the ajax request is sent.
+                  //pageLoader();
+                  console.log("begin");
+                  $(".loadingDivImg").css("display", "block");
+                  break;
+                case "success": // After update of HTML DOM based on ajax response..
+                  //console.log("success");
+                  //formvalidate();
+                  //endPageLoader();
+                  $(".loadingDivImg").css("display", "none");
+                  break;
+              }
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

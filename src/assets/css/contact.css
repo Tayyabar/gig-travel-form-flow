@@ -1,0 +1,62 @@
+.header-contact {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/contact.jpg');
+    background-size: cover;
+    background-position-y:60%;
+    height:50vh;
+}
+
+.get-in-touch .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.get-in-touch .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.get-in-touch .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+get-in-touch .section-content h4 {
+    color:#b90058;
+    font-family: 'Freight-SansMedium';
+    margin-bottom:20px;
+}
+
+.lfr-ddm-form-container h3 {
+    color:#b90058;
+    font-family: 'Freight-SansMedium';
+    margin-bottom:20px;
+    font-size: 1.5rem !important;
+}
+
+.get-in-touch .section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+    line-height: 22px;
+}
+.get-in-touch .text-link {
+        color:#b90058;
+
+}
+
+#claims {
+    display:none;
+}
+
+#policy {
+    display:none;
+}
+#work {
+    display:none;
+}
+#other {
+    display:none;
+}

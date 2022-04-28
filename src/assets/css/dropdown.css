@@ -1,0 +1,118 @@
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+   margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+  border:none;
+  background-color: #f3f3f3;
+  padding:0;
+  margin:0;
+}
+
+
+.dropdown-menu ul {
+    min-height: 130px;
+    text-align: left;
+    padding: 20px 0px 0px 50px;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.355em;
+    vertical-align: 0.155em;
+}
+
+
+.dropdown-menu ul li a,.dropdown-menu ul li a:hover {
+    font-family: 'Freight-SansMedium' !important;
+    font-size:  16px;
+    text-align: left;
+    color:#101257;
+}
+
+.dropdown-menu .nav-header a{
+    font-family: 'Freight-SansBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#101257 !important;
+}
+
+
+
+
+.nav-link.show {
+    background: #f3f3f3;
+    border-radius: 0;
+}
+
+.fixed-header .dropdown.show  .nav-link{
+    color:#101257;
+}
+
+  /* shows the dropdown menu on hover */
+.navbar .dropdown:hover .flyout, .navbar .dropdown .dropdown-menu:hover {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+/* makes the dropdown full width  */
+.navbar .dropdown {position:static;}
+
+.navbar .dropdown-menu {
+    width:100%;
+    left:0;
+    right:0;
+    /*  height of nav-item  */
+    background-color: #f3f3f3;
+    border:none;
+    display:block;
+    visibility: hidden;
+    opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s
+  
+}
+  
+ 
+
+  
+  
+  
+
+}
+
+/* shows the dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s
+}
+
+
+.dropdown.show {
+    background: #f3f3f3;
+    border-radius: 0;
+}
+

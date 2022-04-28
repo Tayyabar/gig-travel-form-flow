@@ -1,0 +1,66 @@
+.header-ceo {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/ceo_bg.jpg');
+    background-size: cover;
+    background-position:center;
+    height:50vh;
+}
+
+.ceo-message .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.ceo-message .section-content p {
+    font-size: 18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.ceo-message .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.ceo-message .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+
+.ceo-section {
+    background-image: url(../images/bg/ceo_message.png);
+    background-position-y:70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ceo .bg {
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+.ceo .bg {
+    border-radius: 100%;
+    height: 237px;
+    width: 237px;
+    margin:0 auto;
+}
+
+.ceo.tareq .bg {
+    background: url(../images/bod/tareq.png) center center;
+    background-size: cover;
+}
+
+.ceo-name {
+    color: #120f5b;
+    padding: 20px 0 0 0px;
+    font-family: 'Freight-SansBold';
+}
+
+.ceo-title {
+    font-size: 1.2rem;
+    padding: 0px 0 10px 0;
+    color: #ca0058;
+}

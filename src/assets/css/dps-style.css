@@ -1,0 +1,341 @@
+
+.dropdown-menu ul {
+	padding:20px 0 0 50px;
+	
+}
+.dropdown-menu ul ul{
+	padding:20px 0 0 0px;
+	
+}
+
+/* 
+// after adding content ie issues are not more, so reverting back these changes
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	header{
+		height:16vh !important;
+	}
+	.topbar{
+		position:relative !important;
+	}
+	.home-header{
+		min-height:0px !important;
+	}
+} */	
+
+.portlet header.portlet-topper{
+    height: unset !important;
+}
+.lang-link a{
+	color:#ffffff !important;
+	cursor: pointer !important;
+}
+.subnav-align{
+	float:left;
+}
+
+body{
+ overflow-x: hidden;
+}
+ .portlet-content, .portlet-minimized .portlet-content-container{
+	padding:0px !important;
+}
+
+.portlet-decorate .portlet-content{
+	border-width: 0px 0px 0px 0px !important;
+	background:unset !important;
+}
+.portlet{
+	margin-bottom:0px !important;
+}
+.arrow-pos-in-mob{
+	position: absolute;
+	right: 0px;
+	
+}
+[class*="-offset-"].unset-mr{
+    margin-right: unset !important;
+}
+[class*="-offset-"].unset-ml{
+	margin-left: unset !important;
+}
+.lfr-ddm-form-container{
+	text-align:left;
+	
+}
+/********/
+/* .portlet > .portlet-topper{
+transition:unset !important;
+z-index:10000000;
+
+}
+.portlet > .portlet-topper:hover{
+transition:unset !important;
+z-index:10000000;
+top:38px;
+}
+.portlet-topper-toolbar{
+position:relative;
+
+z-index:10000000;
+transition:unset !important;
+}
+.portlet-topper-toolbar:hover{
+position:relative;
+
+z-index:10000000;
+transition:unset !important;
+}
+
+.lfr-icon-menu.dropdown{
+	background:#fff !important;
+}
+.portlet-column-content.empty {
+    padding: 0px;
+}
+.top-for-admin{
+	top:70px !important;
+} */
+/*************Clay fixes : added by Anber****************/
+/* .panel-default .panel-heading{
+	background-color: unset !important;
+}
+.panel{
+	border-radius: 0rem !important;
+}
+.customized-btn{
+	background-color: unset !important;
+	border-color: unset !important;
+}
+.customized-btn:hover{
+	background-color:#A91357 !important;
+	color:#ffffff !important;
+
+} */
+/***Added for asset publisher: added by Raja**/
+.event-thumb img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    max-height: 220px;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 2px #b90058;
+}
+
+.dialog-footer .btn-primary.btn-default{
+	background-color: #007bff ;
+	border-color: #007bff ;
+}
+
+.btn-primary.btn-default:hover{
+	background-color:#A91357 !important;
+	color:#ffffff !important;
+	border: none !important;
+}
+.gap-rm{
+	padding:0px !important;
+}
+.gap-rm .portlet-layout .portlet-header{
+	margin-bottom:unset !important;
+}
+
+.customized-web-form .btn-primary {
+    display: inline-block;
+    height: 50px;
+    line-height: 46px;
+    border: 2px solid #A91357 !important;
+    color: #B03265 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0 40px;
+    margin-top: 25px;
+    border-radius: 25px;
+    margin-right:20px;
+    text-align: center;
+    background-color:unset !important;
+    }
+.customized-web-form .btn-primary:hover {
+	background-color:#A91357 !important;
+	color:#ffffff !important;	
+}
+/*****************Main menu nav active style : added by Anber ********************/
+.tab-content > .active { 
+  overflow: unset !important;
+}
+.navbar .nav-item .nav-link.active {
+    color: #b90058;
+}
+.fa-globe:before{
+	margin-left: 5px;
+    margin-right: 5px;
+}
+.top-for-admin{
+	top:57px !important;
+}
+@media (min-width: 992px){
+	.modal-lg {
+	    max-width: 800px !important;
+	}
+}
+.alloy-input-date .btn-default {  
+display: -ms-flexbox;
+-ms-flex-align: center;
+align-items: center;
+padding: 0.375rem 0.75rem;
+margin-bottom: 0;
+font-size: 1rem;
+font-weight: 400;
+color: #495057;
+text-align: center;
+white-space: nowrap;
+background-color: #e9ecef;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+.alloy-input-date .form-control{
+	width: 91.5%;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+.ui-datatable .ui-paginator, .ui-datatable .ui-paginator{
+	font-size: 11px !important;
+}
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td, .ui-datatable tfoot th{
+	font-size: 14px !important;
+	height: 20px !important;
+}
+.ui-datatable .ui-sortable-column-icon{
+	display:none !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	vertical-align: bottom !important;
+	border-radius:0px;
+}
+.ui-menu .ui-menuitem-link{
+	font-size: 12px !important;
+}
+.ui-tabs .ui-tabs-nav.ui-widget-header li{
+	font-size: 15px !important;
+	background-color: #eee !important;
+}
+.ui-tabs .ui-tabs-nav.ui-widget-header li a{
+	line-height:40px !important;
+	color:#444444 !important;
+}
+.ui-tabs-left > .ui-tabs-nav{
+	height: auto !important;
+}
+.ui-tabs .ui-tabs-nav li a{
+	padding:0px 10px !important;
+}
+.ui-tabs .ui-tabs-nav.ui-widget-header li.ui-state-active{
+	color:#ffffff !important;
+		background-color: #A91357 !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{
+	color:#ffffff !important;
+	background-color: #A91357 !important;
+}
+.ui-state-highlight {
+    background: #fff !important;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{
+	color:#444 !important;
+}
+/* .ui-tabs.ui-tabs-left .ui-tabs-nav.ui-widget-header{
+	text-align:left !important;
+} */
+.ui-tabs.ui-tabs-left .ui-tabs-nav.ui-widget-header li.ui-state-active{
+	padding: 0px 5px  !important;
+}
+.ui-tabs.ui-tabs-left .ui-tabs-nav.ui-widget-header li{
+	border-radius: 0px  !important;
+    padding: 0px 5px  !important;
+/*     float: left  !important; */
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{
+	padding: 0px 5px  !important;
+}
+.ui-tabs .ui-tabs-panel{
+	padding: 5px 6px  !important;
+}
+.ui-tabs-left>.ui-tabs-panels{
+	width:82% !important;
+
+}
+.ui-tabs-left>.ui-tabs-nav{
+	width:17% !important;
+}
+.parent-tab-text-style{
+	background: #222158 !important;
+	color: #b90058 !important;
+	text-shadow: unset !important;
+	font-weight: bold !important;
+}
+.ui-tabs-header.parent-tab-text-style.ui-state-default.ui-corner-left.ui-tabs-selected.ui-state-active.parent-tab-text-style{
+	background: #222158 !important;
+	color: #b90058 !important;
+	text-shadow: unset !important;
+	font-weight: bold !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a.parent-tab-text-style{
+	background: #222158 !important;
+	color: #b90058 !important;
+	text-shadow: unset !important;
+	font-weight: bold !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected.parent-tab-text-style a{
+	color: #fff !important;
+    background-color: #222158 !important;
+}
+.ui-selectonemenu .ui-selectonemenu-trigger{
+	width: 36px;
+}
+
+.product-details-div label{
+	width: 200px;
+    text-align: left;
+    margin-right: 30px;
+    color: #A91357;
+}
+/***********Fixes by Anber 17 June , 2019 ************/
+.ui-tabs .ui-tabs-nav li{
+	margin: 0px !important;
+}
+.child-div-style{
+	border: 1px dashed #A91357;
+    background: #ffffff !important;
+    padding:20px 10px;
+ }
+ .btn-primary.btn-default{
+ display: inline-block !important;
+    height: 50px !important;
+    line-height: 46px !important;
+    border: 2px solid #A91357 !important;
+    color: #B03265  !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    padding: 0 40px !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    border-radius: 25px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    text-align: center !important;
+ }
+ .modal-dialog-centered{
+    min-height: unset !important;
+}
+div.alloy-dialog{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.page-wrapper{
+padding-top: 150px !important;
+}

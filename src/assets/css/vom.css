@@ -1,0 +1,30 @@
+.header-company {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/vom_bg.jpg');
+    background-size: cover;
+    background-position-y:60%;
+    height:50vh;
+}
+
+.vision-mission .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.vision-mission .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.vision-mission .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+.vision-mission .section-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}

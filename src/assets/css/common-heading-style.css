@@ -1,0 +1,125 @@
+.header-bod {
+    padding-top: 230px;
+    padding-bottom: 188px;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5) 20%, transparent), url('../images/bg/bod.jpg');
+    background-size: cover;
+    background-position:center;
+    height:50vh;
+}
+
+.comm-heading-style .section-header {
+	text-transform: uppercase;
+	font-family: 'Freight-SansBold';
+	color:#101257;
+	letter-spacing: 1.5px;
+}
+
+.comm-heading-style .normal-section {
+	padding-top:100px;
+	padding-bottom:0px;
+}
+.comm-heading-style .section-border {
+    width: 50px;
+    border-color: #b90058;
+    margin-bottom: 4rem;
+}
+
+
+.comm-heading-style .bg {
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+.comm-heading-style .bg {
+    border-radius: 100%;
+    height: 237px;
+    width: 237px;
+}
+
+
+.comm-heading-style {
+    display: table;
+    z-index: 1;
+    width: 95%;
+    margin: 5em auto;
+}
+
+.comm-heading-style.khaled-h .bg {
+    background: url(../images/bod/khaled.png) center center;
+    background-size: cover;
+}
+
+.comm-heading-style.bijan .bg {
+    background: url(../images/bod/bijan.png) center center;
+    background-size: cover;
+}
+.comm-heading-style.suleyman .bg {
+    background: url(../images/bod/suleyman.png) center center;
+    background-size: cover;
+}
+.comm-heading-style.tareq .bg {
+    background: url(../images/bod/tareq.png) center center;
+    background-size: cover;
+}
+.comm-heading-style.aimen .bg {
+    background: url(../images/bod/aimen.png) center center;
+    background-size: cover;
+}
+
+
+.comm-heading-style .bod-content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 50px;
+    width:100%;
+}
+
+.comm-heading-style .bod-content p {
+    font-size:18px;
+    font-family: 'Freight-SansMedium';
+}
+
+.comm-heading-style h3 {
+    clear: none!important;
+}
+.comm-heading-style h3 {
+    font-weight: 700;
+    font-family: "Freight-SansBold",sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color:101257;
+}
+
+.comm-heading-style h4 {
+    color: #b90058;
+    font-size: 700;
+    font-size: 1.4em;
+
+}
+
+@media only screen and (max-width: 599px) {
+
+.comm-heading-style {
+    display: block;
+    margin: 3em auto 5em auto;
+}
+.comm-heading-style .bg {
+    height: 183px;
+    width: 183px;
+    display: block;
+    background-size: auto 200px;
+    margin:0 auto;
+}
+
+.comm-heading-style .bod-content {
+    margin-left: 0;
+    padding: 2em 0 0;
+    display: block;
+    text-align: center;
+}
+
+}
+.service-section {
+    background-image: url('../images/bg/bg_footer20.png');
+
+    margin-bottom: 50px;
+}
