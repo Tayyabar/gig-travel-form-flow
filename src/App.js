@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import TravelInformation from "../src/components/TravelInformation";
 import TravellersInformation from "../src/components/TravellersInformation";
 import PersonalDetails from "../src/components/PersonalDetails";
